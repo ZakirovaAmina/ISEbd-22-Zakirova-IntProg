@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "EnterForm";
+}
+<section>
+    <main>
+        <form class="form-signin">
+            <div class="row">
+                <div class="col" style="
+                margin-bottom: -25px;
+            ">
+                    <img class="mb-4" src="~/img/login.jpg" alt="">
+                </div>
+                <div class="form col">
+
+                    <h1 class="h3 fw-normal">Войти в систему</h1>
+                    <div class="row"></div>
+                    <div class="sign-in__form-field">
+                        <label class="sign-in__form-label" for="username">
+                            Адрес электронной почты или номер
+                            читательского билета
+                        </label>
+                        <input class="sign-in__form-input" name="username" required>
+
+                    </div>
+                    <div class="row"></div>
+                    <div class="sign-in__form-field">
+                        <label class="sign-in__form-label" for="password">Пароль</label>
+                        <input class="sign-in__form-input" type="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-outline-secondary btn-lg px-4"
+                            style="margin-left: -200px; margin-bottom: -200px;">
+                        Войти
+                    </button>
+
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <script src="~/js/LogIn.js"></script>
+
+</section>

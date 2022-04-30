@@ -1,0 +1,209 @@
+﻿@import url('preconnect" href="https://fonts.googleapis.com');
+@import url('preconnect" href="https://fonts.gstatic.com" crossorigin');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet');
+@import url('preconnect" href="https://fonts.gstatic.com" crossorigin');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: rgb(255, 222, 159);
+}
+
+.navbar1-1 {
+    background-color: rgb(249, 198, 122);
+}
+
+    .navbar1-1 img {
+        width: 200px;
+        height: 175px;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+
+.navbar-brand {
+    color: rgba(0, 0, 0, 1);
+    margin-top: 26px;
+    margin-left: -28px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Comfortaa', normal;
+    min-width: max-content;
+}
+
+.navbar-menu {
+    padding: 0.7rem !important;
+    color: rgba(21, 27, 31, 1);
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Montserrat', normal;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    margin-top: -75px;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    margin-top: 5px;
+    margin-left: 75px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 243, 134, 1);
+    background-color: rgb(172, 93, 0);
+}
+
+.btn-primary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(172, 93, 0);
+    background-color: rgb(255, 243, 134);
+    border-color: rgb(172, 93, 0);
+}
+
+.btn-outline-secondary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(255, 243, 134);
+    background-color: rgb(172, 93, 0);
+}
+
+.news a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    margin-left: 115px;
+    color: black;
+    text-decoration: none;
+}
+
+.news > .newnews {
+    font-size: 24px;
+    margin-left: 489px;
+}
+
+.news > .bi-arrow-right {
+    margin-bottom: 6px;
+}
+
+.card {
+    width: 18rem;
+    background-color: rgb(249, 198, 122);
+    margin-left: 86px;
+}
+
+.navbar-expand-sm {
+    background-color: rgb(249, 198, 122);
+    /* position: relative;*/
+    margin: 0;
+    width: 100%;
+}
+
+    .navbar-expand-sm img {
+        width: 100px;
+        height: 95px;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+
+    .navbar-expand-sm a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(55, 58, 60);
+        margin-left: 15px;
+    }
+
+.form-signin img {
+    width: 664px;
+    height: 699px;
+    top: 220px;
+    margin-left: 690px;
+}
+
+.form {
+    margin-top: -500px;
+    margin-left: 60px;
+}
+
+.form-control {
+    width: 35%;
+    margin-left: 57px;
+}
+
+.sign-in__form-field {
+    flex-direction: column;
+    display: inline-grid;
+}
+
+.fw-normal {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 36px;
+}
+
+.sign-in__form-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.sign-in__form-input {
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 60px;
+    text-indent: 20px;
+}
+
+.navbar-expand-md {
+    background-color: #FFEED3;
+}
+
+.search_label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.form-control {
+    margin-left: 130px;
+    width: 514px;
+}
+
+.searchmore_label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #151B1F;
+    margin-left: 10px;
+}
+
+.sign-in__form-input {
+    color: black;
+}

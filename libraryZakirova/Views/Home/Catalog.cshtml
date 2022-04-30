@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Catalog";
+}
+<section>
+
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"></a>
+        <label class="search_label">Поиск</label>
+
+        <form class="form-inline my-2 my-md-0" style="
+        display: -webkit-inline-box;">
+
+            <input class="form-control" type="text" placeholder="Автор, название или ключевое слово">
+
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" style="
+                margin-left: 35px;">
+                Найти
+            </button>
+            <label class="searchmore_label">Расширенный поиск</label>
+
+        </form>
+
+    </nav>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ISBN</th>
+                <th scope="col">Название</th>
+                <th scope="col">Доступ</th>
+                <th scope="col">Добавить в избранное</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">978-5-17-090332-0</th>
+                <td>Гордость и предубеждение</td>
+                <td>Доступно</td>
+                <td><span>❤</span></td>
+            </tr>
+            <tr>
+                <th scope="row">978-5-17-080085-8</th>
+                <td>О дивный новый мир</td>
+                <td>Доступно</td>
+                <td><span>❤</span></td>
+            </tr>
+            <tr>
+                <th scope="row">978-5-17-134729-1</th>
+                <td>Классика в иллюстрациях Гюстава Доре</td>
+                <td>Доступно для зарегестрировавшихся пользователей</td>
+                <td><span>❤</span></td>
+            </tr>
+            <tr>
+                <th scope="row">978-5-389-20599-4</th>
+                <td>Бесы</td>
+                <td>Доступно</td>
+                <td><span>❤</span></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
